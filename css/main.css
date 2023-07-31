@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00040F;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.visually-hidden{
+     position: fixed;
+    transform: scale(0);
+}
+
+.container{
+    width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER STARTED */
+
+.header{
+    padding: 30px 0;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding: 30px 0;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 56px;
+    list-style-type: none;
+}
+
+.header-link{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    text-decoration: none;
+}
+
+.home{
+    color: #FFF;
+}
+
+/* HEADER ENDED */
+
+/* HERO SECTION STARTED */
+
+.hero{
+    padding: 140px 0;
+    background-image: url("../images/gropu\ select.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 200px) top;
+}
+
+.hero-inner{
+    position: relative;
+    display: flex;
+
+}
+
+
+.hero-desc{
+    display: block;
+    width: 408px;
+    border-radius: 10px;
+    background-color: linear-gradient(135deg, #272727 0%, #11101D 100%);
+}
+
+.hero-discount{
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 19px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hero-desc::before{
+    position: absolute;
+    top: -5px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/discount.svg");
+    content: "";
+}
+
+.bold{
+    color: #FFF;
+}
+
+.box{
+    display: block;
+    width: 670px;
+    background-image: url("../get.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 200px) top;
+
+}
+
+.hero-title{
+    margin: 0;
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.72px;
+    margin-bottom: 40px;
+}
+
+.gener{
+    background: radial-gradient(64.33% 64.33% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text{
+    margin: 0;
+    display: block;
+    width: 483px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
