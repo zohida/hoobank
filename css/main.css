@@ -649,6 +649,7 @@ img{
 .site-footer{
     margin: 0;
     padding: 89px 0 30px 135px;
+    padding-left: 0;
 }
 
 .footer-top{
