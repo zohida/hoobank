@@ -729,7 +729,7 @@ img{
 
 .site-footer{
     margin: 0;
-    padding: 89px 0 30px 135px;
+    padding: 89px 0 0 135px;
     padding-left: 0;
 }
 
@@ -761,7 +761,6 @@ img{
 
 .links{
     margin: 0;
-    margin-bottom: 24px;
     color: #FFF;
     text-align: center;
     font-size: 18px;
@@ -787,6 +786,7 @@ img{
     text-decoration: none;
 }
 
+
 .partner{
     margin-top: -70px;
 }
@@ -795,6 +795,7 @@ img{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -808,6 +809,8 @@ img{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 30px;
+    padding-left: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -820,7 +823,6 @@ img{
 
 .footer-item{
     margin: 0;
-    padding-left: 0;
     color: rgba(255, 255, 255, 0.60);
     font-family: "Abel";
     font-size: 18px;
